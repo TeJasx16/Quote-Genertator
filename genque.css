@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    /* color: orange; */
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width:350px) {
+    
+    .btns{
+        flex-direction: column;
+        width: 100%;
+    }
+    .btns ul {
+        justify-content: space-evenly;
+
+    }
+    
+}
+
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.cont{
+
+    width: 600px;
+    padding: 25px;
+    border-radius: 55px;
+    outline: none;
+  
+    background: orange;
+    
+}
+.cont header{
+    text-align: center;
+    font-size:30px;
+    font-weight: 600;
+}
+
+.cont .quarea{
+    margin: 30px 0;
+}
+
+.qtext{
+    
+    display: flex;
+    justify-content: center;
+}
+.qtext .txt{
+    font-size: 26px;
+    font-weight: 400;
+    
+       text-align: center;
+
+}
+
+.qtext i
+{
+    font-size: 14px;
+}
+.qtext i:first-child{
+
+ margin: 3px 10px 0px 0px;
+
+}
+.qtext i:last-child{
+     display: flex;
+     align-items: flex-end;
+    margin: 0px 0px 3px 10px;
+   
+   }
+
+
+   .qauth{
+       display: flex;
+       justify-content: flex-end;
+       margin-top: 7px;
+       font-size: 23px;
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+
+   .btns{
+       display: flex;
+       /* margin-top: 45px; */
+       justify-content: space-between;
+       border-top: 1px solid black;
+   }
+
+   .btns ul{
+       margin-top: 15px;
+       display: flex;
+       /* justify-content: center; */
+       /* margin: 12px 0px 4px 30px; */
+       gap: 15px;
+   }
+   .btns ul li{
+       cursor: pointer;
+       list-style: none;
+       height: 47px;
+       width: 47px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-radius: 50px;
+       color: black;
+       border: 1px solid rgb(53, 52, 52);
+       transition: all 0.3s ease-in-out;
+   }
+   .btns ul  :hover{
+    color: orange;
+    background: black;
+     
+   }
+
+   .btns button{
+ margin-top: 18px;
+ height: 30px;
+ padding: 8px;
+ background: orange;
+ color: black;
+ cursor: pointer;
+ font-weight: 400;
+ border: 1px solid black;
+ border-radius: 30px;
+ transition: all 0.3s ease-in-out;
+
+   }
+
+   .btns button:hover{
+       color: orange;
+       background: black;
+   }
+
+button .loading{
+    opacity: 0.8;
+      pointer-events: none;
+
+    
+}
