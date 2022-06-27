@@ -11,6 +11,7 @@ function randqou() {
 
     fetch("https://api.quotable.io/random").then(res =>res.json()).then(result =>{
      //for random quotes
+     console.log(result);
        
    qutxt.innerText = result.content;
    quaut.innerText = result.author;
